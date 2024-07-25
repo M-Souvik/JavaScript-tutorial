@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css2?family=Anta&family=Bangers&family=Ubuntu&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.heading{
+    background-color: teal;
+    color: azure;
+    height: 5rem;
+    line-height: 5rem;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.choice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 165px;
+   width: 165px;
+   transition: all ease-in-out 0.5s;
+   border-radius: 50%;
+}
+.choice:hover{
+transform: scale(1.09);
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    gap: 3rem;
+    text-align: center;
+}
+#User-score,#comp-score{
+    font-size: 4rem;
+}
+.msg{
+    background-color: black;
+    color: aliceblue;
+    font-size: 2rem;
+    display: flex;
+    margin: 2rem 500px 0px 500px ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    padding: 1rem;
+
+    
+}
